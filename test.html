@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css.css?v=206">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <title>TODO List</title>
+</head>
+<body>
+<div id="todo-list">
+    <ul>
+        <h2>Список дел на сегодня:</h2>
+        <input type="text" id="input-item" placeholder="Добавить новую задачу">
+        <div class="radio-btn-area">
+            <div class="radio-btn">
+                <input id="important-task" type="radio" name="which-list" checked value="red-list">
+                <label for="important-task"> Важная задача</label>
+            </div>
+            <div class="radio-btn">
+                <input id="simple-task" type="radio" name="which-list" value="green-list">
+                <label for="simple-task"> Обычная задача</label>
+            </div>
+        </div>
+    </ul>
+</div>
+</body>
+<footer>
+    <script src="./js.js?v=22" type="text/javascript"></script>
+</footer>
+</html>
